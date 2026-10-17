@@ -1,0 +1,37 @@
+.front-page {
+    min-height: 100svh;
+    background-color: #f5f5f7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 24px 48px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.intro {
+    max-width: 640px;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 1.3;
+}
+
